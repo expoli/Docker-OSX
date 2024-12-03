@@ -40,7 +40,7 @@
 #           ssh localhost user@127.0.0.1 -p 50922
 #           docker exec -it containerid ssh -i ~/.ssh/id_docker_osx user@127.0.0.1 -p 10022
 
-FROM sickcodes/docker-osx:latest
+FROM ghcr.io/expoli/docker-osx:master
 
 LABEL maintainer='https://twitter.com/sickcodes <https://sick.codes>'
 
