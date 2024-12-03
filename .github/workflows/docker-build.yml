@@ -3,6 +3,7 @@ name: Push Docker Image to Docker Hub
 on:
   # schedule:
   #   - cron: '18 21 * * *'
+  workflow_dispatch:
   push:
     branches: [ "main" ]
     # Publish semver tags as releases.
